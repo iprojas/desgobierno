@@ -1,5 +1,5 @@
 body {
-  background: #333;
+  background: black;
   color:white;
   font-family: Raleway;
 }
@@ -8,21 +8,25 @@ body {
   line-height: 0;
   width: 100%;
   padding-top: 50%;
+  min-height: 100%;
 }
 #video-compare-container > video {
   width: 100%;
   position: absolute;
-  top: 0; height: 100%;
+  top: 0; 
+  min-height: 100%;
 }
 #video-clipper {
-  width: 50%; position: absolute;
+  width: 50%; 
+  position: absolute;
   top: 0; bottom: 0;
   overflow: hidden;
+  min-height: 100vh;
 }
 #video-clipper video {
   width: 200%;
-  postion: absolute;
-  height: 100%;
+  /* position: absolute; */
+  min-height: 100vh;
 }
 
 #texto {
