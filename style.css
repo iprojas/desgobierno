@@ -30,15 +30,19 @@ body {
   position: absolute;
   top: 20vh;
   margin: 5vw;
+  cursor: pointer!important;
 }
 
 #texto h1 {
-  font-size: 10vw;
-  text-shadow: #00000042 0 0 5px;
+  font-size: 4vw;
+  text-shadow: #00000022 0 0 5px;
+  cursor: default!important;
 }
 
 #texto h6 {
-  width: 60vw;
-  margin: 10px 20px; 
-  font-size: 4vw;
+  width: 80vw;
+  margin: 0; 
+  font-size: 2vw;
+  cursor: default;
+  line-height: 1.2;
 }
